@@ -1,0 +1,22 @@
+{
+  "name": "haiii",
+  "version": "1.0.1",
+  "description": "Haiii :3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
+  },
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["haiii", "hello world", ":3"],
+  "author": "lunyaa.dev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  }
+}
